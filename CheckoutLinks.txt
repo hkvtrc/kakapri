@@ -1,0 +1,15 @@
+# GUIA DE LINKS DE CHECKOUT
+
+Para alterar os links de pagamento, abra o arquivo:
+👉 /src/config/profile.ts
+
+Altere os valores dentro do objeto 'checkoutLinks':
+
+--------------------------------------------------
+monthly: "LINK_DO_PLANO_MENSAL",    // R$ 11,90
+quarterly: "LINK_DO_PLANO_TRIMESTRAL", // R$ 19,90
+yearly: "LINK_DO_PLANO_ANUAL",      // R$ 49,90
+mainButton: "LINK_DO_BOTAO_FINAL"   // O botão grande rosa
+--------------------------------------------------
+
+Toda a configuração de imagens, vídeos e textos também está centralizada nesse arquivo.
